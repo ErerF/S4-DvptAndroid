@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Button appearance">
+        <SwitchPreference android:title="Button in red"
+            android:defaultValue="false"
+            android:key="RED_BUTTON"/>
+    </PreferenceCategory>>
+</PreferenceScreen>

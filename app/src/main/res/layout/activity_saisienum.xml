@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.appliworld.pizzeria.PizzeriaMainActivity"
+    android:orientation="vertical"
+    android:id="@+id/fond"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/txtDemandeNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero de table:" />
+
+    <EditText
+        android:id="@+id/edTxtNum"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"/>
+</LinearLayout>

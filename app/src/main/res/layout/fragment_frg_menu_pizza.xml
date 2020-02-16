@@ -1,0 +1,85 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btnNapolitaine"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NAPOLITAINE"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/btnRoyale"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ROYALE" />
+
+    <Button
+        android:id="@+id/btn4Fromages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="QUATRE FROMAGES"/>
+
+    <Button
+        android:id="@+id/btnMontagnarde"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="MONTAGNARDE" />
+
+    <Button
+        android:id="@+id/btnRaclette"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="RACLETTE" />
+
+    <Button
+        android:id="@+id/btnHawai"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="HAWAI" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnPannaCotta"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="PANNA COTTA"/>
+
+        <Button
+            android:id="@+id/btnTiramisu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="TIRAMISU" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPersonnaliser"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Pizza Personnalisee"/>
+        <Button
+            android:id="@+id/btnReinit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Reinitialiser" />
+    </LinearLayout>
+</LinearLayout>
+

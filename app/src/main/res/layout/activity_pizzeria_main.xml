@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appliworld.pizzeria.PizzeriaMainActivity"
+    android:orientation="vertical"
+    android:id="@+id/fond"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/txtNumTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commande de la table n." />
+
+
+    <FrameLayout
+        android:id="@+id/frgMenu"
+        android:name="com.example.TestFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </FrameLayout>
+
+</LinearLayout>
